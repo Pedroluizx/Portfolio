@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,35 +14,44 @@
     <title>Portifolio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#projetos">Projetos</a>
-      </nav>
-      teste
-    </header>
+    <div class="main">
+      <header>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre</a>
+        </nav>
+      </header>
 
-    <div class="container" id="home">
-      <div class="text-main">
-        <p>Bem-vindos</p>
-        <h1 class="animation-nome">Eu sou o Pedro</h1>
-        <h2>Front-End Developer</h2>
-        <a href="#sobre">Descubra mais sobre mim</a>
+      <div class="container" id="home">
+        <div class="text-main">
+          <p id="bemvindo">Bem-vindos</p>
+          <h1 class="animation-nome">Eu sou o Pedro</h1>
+          <h2>Front-End Developer</h2>
+          <a href="#sobre">Descubra mais sobre mim</a>
+          <a href="/assets/Estagio.docx"
+            ><button id="cv">Download cv</button></a
+          >
+        </div>
       </div>
     </div>
 
     <section id="sobre">
       <div class="informacoes">
-        <h2>Pedro Luiz</h2>
+        <div class="titulos-sobre">
+          <h1>Sobre mim</h1>
+        </div>
+
         <p>
-          Desenvolvedor Front-End estudando Analise e Desenvolvimento de
-          Sistemas.
+          Me chamo Pedro Luiz,tenho 24 anos e sou estudante de Analise e
+          desenvolvimento de sistemas
         </p>
         <p>
-          Sou estudante da tecnologia Front-End e vivo em constante
-          aprendizado,tive meu primeiro contato com programação em 2016 no curso
-          tecnico de informatica que cursei na fucapi
+          Tive meu primeiro contato com programação em 2016 quando fiz um curso
+          tecnico de informatica na instituicao de ensino fucapi
+        </p>
+        <p>
+          Em 2022 voltei a estudar programação focado na area de Front-End e
+          estou em busca da minha primeira oportunidade na area
         </p>
       </div>
 
@@ -51,23 +60,58 @@
       </div>
 
       <div class="tecnologias">
-        <img src="/assets/html-icon.png" alt="simbolo html" />
-        <img src="/assets/css-icon.png" alt="simbolo css" />
-        <img src="/assets/react-icon3.jpg" alt="simbolo react" />
-        <img src="/assets/Python-icon2.png" alt="simbolo python" />
-        <img src="/assets/git-icon.png" alt="simbolo git" />
+        <img
+          src="/assets/icon-html.png"
+          alt="simbolo html"
+          class="img-tecnologias"
+        />
+        <img
+          src="/assets/icon-css.png"
+          alt="simbolo css"
+          class="img-tecnologias"
+        />
+        <img
+          src="/assets/js-icon.png"
+          alt="simbolo css"
+          class="img-tecnologias"
+        />
+        <img
+          src="/assets/icon-react.jpg"
+          alt="simbolo react"
+          class="img-tecnologias"
+        />
+        <img
+          src="/assets/Python-icon2.png"
+          alt="simbolo python"
+          class="img-tecnologias"
+        />
       </div>
 
       <div class="titulos-sobre">
         <h1>Minhas redes</h1>
       </div>
       <div class="contatos">
-        <img src="/assets/linkedin-icon.png" alt="" />
-        <img src="/assets/git-icon.png" alt="" />
-        <img src="/assets/curriculo-icon.png" alt="" />
+        <a href="https://www.linkedin.com/in/pedroluizalb/"
+          ><img
+            src="/assets/linkedin-icon.png"
+            alt="icone linkedin"
+            class="icones-contatos"
+        /></a>
+
+        <a href="https://github.com/Pedroluizx"
+          ><img
+            src="/assets/git-icon.png"
+            alt=" icone github"
+            class="icones-contatos"
+        /></a>
+
+        <a href="/assets/Estagio.docx">
+          <img
+            src="/assets/curriculo-icon.png"
+            alt="icone curriculo"
+            class="icones-contatos"
+        /></a>
       </div>
     </section>
-
-    <section id="projetos">Projetos</section>
   </body>
 </html>
